@@ -45,7 +45,9 @@ optional arguments:
 
 ```
 
-# Example
+# Interface
+````
+https://imgur.com/JCXmcE0
 
 ```python
 
