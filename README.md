@@ -20,7 +20,7 @@ content.302 Found       The requested resource resides temporarily under a diffe
 
 # Interface
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="JCXmcE0"><a href="https://imgur.com/JCXmcE0">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/NuUwbyN" data-context="false" ><a href="//imgur.com/a/NuUwbyN"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 # Installing 
 
