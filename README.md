@@ -29,7 +29,7 @@ sudo apt-get install webcheck
 
 ```python
 
-$ webcheck -h
+$ python3 webcheck -h
     
 usage: webcheck.py [-h] [-u URL] [-o] [-sb]
 
@@ -47,7 +47,7 @@ optional arguments:
 ```python
 
 
-root@kali:~# webcheck -u www.example.com -sb
+root@kali:~# python3 webcheck.py -u www.example.com -sb
 
  ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄  ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄    ▄              
 ▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌  ▐░▌             
