@@ -25,3 +25,86 @@ sudo apt-get update
 sudo apt-get install webcheck
 ```
 
+# Usage
+
+```python
+
+$ webcheck -h
+    
+usage: parsero.py [-h] [-u URL] [-o] [-sb]
+
+optional arguments:
+-h, --help  show this help message and exit
+-u URL      Type the URL which will be analyzed
+-o          Show only the "HTTP 200" status code
+-sb         Search in Bing indexed Disallows
+-f FILE     Scan a list of domains from a list
+
+```
+
+# Example
+
+```python
+
+
+root@kali:~# webcheck -u www.example.com -sb
+
+ ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄  ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄    ▄              
+▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌  ▐░▌             
+▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀▀▀ ▐░▌ ▐░▌              
+▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌▐░▌          ▐░▌          ▐░▌▐░▌               
+▐░▌   ▄   ▐░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░▌          ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░▌          ▐░▌░▌                
+▐░▌  ▐░▌  ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌ ▐░▌          ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌          ▐░░▌                 
+▐░▌ ▐░▌░▌ ▐░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░▌          ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░▌          ▐░▌░▌                
+▐░▌▐░▌ ▐░▌▐░▌▐░▌          ▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌▐░▌          ▐░▌          ▐░▌▐░▌               
+▐░▌░▌   ▐░▐░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄▄▄ ▐░▌ ▐░▌              
+▐░░▌     ▐░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌  ▐░▌             
+ ▀▀       ▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀    ▀              
+                                                                                                                
+ ▄▄▄▄▄▄▄▄▄▄   ▄         ▄               ▄▄       ▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄         ▄  ▄            ▄▄▄▄▄▄▄▄▄▄▄  ▄    ▄ 
+▐░░░░░░░░░░▌ ▐░▌       ▐░▌             ▐░░▌     ▐░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░▌          ▐░░░░░░░░░░░▌▐░▌  ▐░▌
+▐░█▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌             ▐░▌░▌   ▐░▐░▌▐░█▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌▐░▌           ▀▀▀▀█░█▀▀▀▀ ▐░▌ ▐░▌ 
+▐░▌       ▐░▌▐░▌       ▐░▌             ▐░▌▐░▌ ▐░▌▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░▌               ▐░▌     ▐░▌▐░▌  
+▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌ ▄▄▄▄▄▄▄▄▄▄▄ ▐░▌ ▐░▐░▌ ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░▌               ▐░▌     ▐░▌░▌   
+▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌  ▐░▌  ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░▌               ▐░▌     ▐░░▌    
+▐░█▀▀▀▀▀▀▀█░▌ ▀▀▀▀█░█▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀ ▐░▌   ▀   ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░▌               ▐░▌     ▐░▌░▌   
+▐░▌       ▐░▌     ▐░▌                  ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░▌               ▐░▌     ▐░▌▐░▌  
+▐░█▄▄▄▄▄▄▄█░▌     ▐░▌                  ▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄  ▄▄▄▄█░█▄▄▄▄ ▐░▌ ▐░▌ 
+▐░░░░░░░░░░▌      ▐░▌                  ▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌  ▐░▌
+ ▀▀▀▀▀▀▀▀▀▀        ▀                    ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀    ▀ 
+                                                                                                                
+
+Starting Parsero v0.75 (https://github.com/behindthefirewalls/Parsero) at 05/22/14 11:12:55
+Parsero scan report for example.com
+http://example.com/download.php 302 Moved Temporarily
+http://example.com/raw.php 302 Moved Temporarily
+http://example.com/embed_js.php 200 OK
+http://example.com/embed.php 200 OK
+http://example.com/print.php 302 Moved Temporarily
+http://example.com/diff.php 302 Moved Temporarily
+http://example.com/share.php 404 Not Found
+http://example.com/report.php 302 Moved Temporarily
+http://example.com/embed_iframe.php 200 OK
+                                         
+[+] 9 links have been analyzed and 3 of them are available!!!
+                                         
+Searching the Disallows entries in Bing
+                                         
+http://www.bing.com/search?q=site:http://example.com/download.php
+http://www.bing.com/search?q=site:http://example.com/raw.php
+- example.com/raw.php/contact?i=KR9c2erd 200 OK
+- example.com/raw.php/legal.aspx 302 Moved Temporarily
+- example.com/raw.php/points?i=KR9c2erd 200 OK
+- example.com/raw.php/image/sqrn11sp3C/zayn-tshirt-one-direction?i=... 302 Moved Temporarily
+http://www.bing.com/search?q=site:http://example.com/embed_js.php
+http://www.bing.com/search?q=site:http://example.com/embed.php
+http://www.bing.com/search?q=site:http://example.com/print.php
+http://www.bing.com/search?q=site:http://example.com/diff.php
+http://www.bing.com/search?q=site:http://example.com/share.php
+http://www.bing.com/search?q=site:http://example.com/report.php
+http://www.bing.com/search?q=site:http://example.com/embed_iframe.php
+                                         
+Finished in 7.290362596511841 seconds 
+
+```
+
