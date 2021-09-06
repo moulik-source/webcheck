@@ -20,7 +20,7 @@ content.302 Found       The requested resource resides temporarily under a diffe
 
 # Interface
 
-[img]https://i.imgur.com/JCXmcE0.png[/img]
+![2021-09-06 17_58_45-moulik-source_webcheck_ Check the target for any error URL and also cehck for va](https://user-images.githubusercontent.com/62848840/132220109-429878d0-6a9e-48e2-9f8e-61ef71f295fb.png)
 
 # Installing 
 
