@@ -128,5 +128,13 @@ The use of this tool is your responsability. Use parsero to audit your own serve
 - Web: http://www.techyrick.com
 - contact: http://techyrick.com/contact
 - Blog: http://techyrick.com/blog
+
+# Donate 
+
+![giphy (1)](https://user-images.githubusercontent.com/62848840/132224123-7575fc14-b5e4-4f15-a8ef-64f8d166bdcb.gif)
+
+bc1q7p0cfzyrqvlzswwpqrt5hu382nq2uctylp8at9
+
+
                 
                 
