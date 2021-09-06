@@ -108,3 +108,8 @@ Finished in 7.290362596511841 seconds
 
 ```
 
+# Disclaimer
+
+The use of this tool is your responsability. Use parsero to audit your own servers or servers you are allowed to scan. I hereby disclaim any responsibility for actions taken with this tool.
+
+
