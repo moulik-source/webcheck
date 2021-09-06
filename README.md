@@ -136,5 +136,4 @@ The use of this tool is your responsability. Use parsero to audit your own serve
 bc1q7p0cfzyrqvlzswwpqrt5hu382nq2uctylp8at9
 
 
-                
-                
+            
