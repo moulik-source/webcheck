@@ -18,6 +18,10 @@ content.302 Found       The requested resource resides temporarily under a diffe
 
 ```
 
+# Interface
+
+https://imgur.com/JCXmcE0
+
 # Installing 
 
 ```python
