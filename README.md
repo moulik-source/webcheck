@@ -114,7 +114,7 @@ The use of this tool is your responsability. Use parsero to audit your own serve
 
 # Author
 
--Moulik <Moulik at www.techyrick.com
--Web: http://www.techyrick.com
+- Moulik <Moulik at www.techyrick.com
+- Web: http://www.techyrick.com
                 
                 
