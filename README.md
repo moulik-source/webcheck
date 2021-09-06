@@ -9,14 +9,9 @@ Also, the fact the administrator write a robots.txt, it doesn't mean that the fi
 
 When you execute Parsero, you can see the HTTP status codes. For example, the codes bellow:
 
-#200 OK          The request has succeeded.
-#403 Forbidden   The server understood the request, but is refusing to fulfill it.
-#404 Not Found   The server hasn't found anything matching the Request-URI.
-#302 Found       The requested resource resides temporarily under a different URI.
+---
+**NOTE**
 
-200 OK          The request has succeeded.
-403 Forbidden   The server understood the request, but is refusing to fulfill it.
-404 Not Found   The server hasn't found anything matching the Request-URI.
-302 Found       The requested resource resides temporarily under a different URI.
-...
+It works with almost all markdown flavours (the below blank line matters).
 
+---
