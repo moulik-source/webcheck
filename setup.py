@@ -1,7 +1,7 @@
 # webcheck - A Python based Robots.txt audit tool
 # Copyright (c) 2021-2022 Moulik<Moulik at www.techyrick.com>
 #
-# Released under the GPLv2+ license. See LICENSE file for details.
+# Released under the GPLv3+ license. See LICENSE file for details.
 #
 from setuptools import setup
 import os
