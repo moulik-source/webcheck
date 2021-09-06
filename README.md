@@ -21,8 +21,11 @@ content.302 Found       The requested resource resides temporarily under a diffe
 # Installing 
 
 ```python
-sudo apt-get update
-sudo apt-get install webcheck
+open terminal
+git clone https://github.com/moulik-source/webcheck
+cd webcheck
+ls
+python3 webcheck -u www.google.com
 ```
 
 # Usage
