@@ -20,7 +20,7 @@ content.302 Found       The requested resource resides temporarily under a diffe
 
 # Interface
 
-![img](https://imgur.com/JCXmcE0)
+(https://imgur.com/JCXmcE0)
 
 # Installing 
 
