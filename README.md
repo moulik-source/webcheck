@@ -46,7 +46,8 @@ optional arguments:
 ```
 
 # Example
-````
+
+```python
 
 root@kali:~# python3 webcheck.py -u www.example.com -sb
 
