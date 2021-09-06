@@ -31,7 +31,7 @@ sudo apt-get install webcheck
 
 $ webcheck -h
     
-usage: parsero.py [-h] [-u URL] [-o] [-sb]
+usage: webcheck.py [-h] [-u URL] [-o] [-sb]
 
 optional arguments:
 -h, --help  show this help message and exit
@@ -74,8 +74,8 @@ root@kali:~# webcheck -u www.example.com -sb
  ▀▀▀▀▀▀▀▀▀▀        ▀                    ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀    ▀ 
                                                                                                                 
 
-Starting Parsero v0.75 (https://github.com/behindthefirewalls/Parsero) at 05/22/14 11:12:55
-Parsero scan report for example.com
+Starting webcheck v0.75 (https://github.com/moulik-source/webcheck) at 05/22/14 11:12:55
+webcheck scan report for example.com
 http://example.com/download.php 302 Moved Temporarily
 http://example.com/raw.php 302 Moved Temporarily
 http://example.com/embed_js.php 200 OK
