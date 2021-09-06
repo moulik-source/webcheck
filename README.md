@@ -11,10 +11,10 @@ When you execute Parsero, you can see the HTTP status codes. For example, the co
 
 ```python
 
-The note content.200 OK          The request has succeeded.
-The note content.403 Forbidden   The server understood the request, but is refusing to fulfill it.
-The note content.404 Not Found   The server hasn't found anything matching the Request-URI.
-The note content.302 Found       The requested resource resides temporarily under a different URI.
+content.200 OK          The request has succeeded.
+content.403 Forbidden   The server understood the request, but is refusing to fulfill it.
+content.404 Not Found   The server hasn't found anything matching the Request-URI.
+content.302 Found       The requested resource resides temporarily under a different URI.
 
 ```
 
