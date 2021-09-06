@@ -45,12 +45,8 @@ optional arguments:
 
 ```
 
-# Interface
+# Example
 ````
-https://imgur.com/JCXmcE0
-
-```python
-
 
 root@kali:~# python3 webcheck.py -u www.example.com -sb
 
